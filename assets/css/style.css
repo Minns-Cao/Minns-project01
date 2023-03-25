@@ -617,6 +617,10 @@ a {
     border-radius: 4px;
 }
 
+.footer .social-link:hover {
+    background: #ebebeb;
+}
+
 .footer .row-bottom {
     display: flex;
     align-items: center;
