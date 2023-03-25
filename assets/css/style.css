@@ -56,7 +56,7 @@ a {
     flex-direction: column;
     position: relative;
     background: rgb(180, 203, 240);
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 
 .navbar {
