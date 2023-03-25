@@ -58,6 +58,7 @@ a {
 .hero-wrap {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position: relative;
     background: rgb(180, 203, 240);
     height: calc(100vh - 90px);
@@ -103,10 +104,6 @@ a {
 
 .navbar ul a:hover {
     text-decoration: underline;
-}
-
-.hero {
-    margin-top: 130px;
 }
 
 .hero .info .sub-title {
