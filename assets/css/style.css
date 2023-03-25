@@ -43,8 +43,17 @@ a {
     opacity: 0.9;
 }
 /* ====================Header====================== */
+.fixed-header {
+    background: rgb(180, 203, 240);
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
 
-.header {
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
     position: relative;
     background: rgb(180, 203, 240);
     height: 100vh;
@@ -53,7 +62,8 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 12px 0;
 }
 
 .navbar ul {
